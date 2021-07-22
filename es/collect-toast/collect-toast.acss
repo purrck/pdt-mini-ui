@@ -8,7 +8,6 @@
   z-index: 999999;
   right: 60rpx;
   top: 20rpx;
-  position: relative;
   /* transform: translate(-50%, -50%); */
 }
 
