@@ -8,6 +8,7 @@
   z-index: 999999;
   right: 60rpx;
   top: 20rpx;
+  position: relative;
   /* transform: translate(-50%, -50%); */
 }
 
@@ -63,6 +64,7 @@
   opacity: 0.6;
   top: -15rpx;
   left: 240rpx;
+  position: absolute;
 }
 
 .close-btn {
