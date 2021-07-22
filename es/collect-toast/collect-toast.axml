@@ -1,0 +1,17 @@
+<view>
+  <view class=" toast-box relative flexRow {{!visiable?'fade': ''}}" catchTap="onClose">
+    <view class="left">
+      <!--<image mode="scaleToFill" src="https://alipay-data.oss-cn-hangzhou.aliyuncs.com/xcx/bank/spdb/2021002114673141/imgs/icon/float-2.png" class="icon"/> -->
+      <image mode="scaleToFill" src="{{iconUrl}}" class="icon"/>
+    </view>
+    <view class="right">
+      <text>
+      收藏小程序，下次使用更方便
+      </text>
+    </view>
+    <view class="triangle-down absolute">
+    </view>
+    <!--<view class="close-btn absolute">
+    x</view> -->
+  </view>
+</view>

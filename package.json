@@ -1,0 +1,19 @@
+{
+  "name": "pdt-mini-ui",
+  "version": "1.3.0",
+  "description": "pdt公共组件方法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "es",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purrck/pdt-mini-ui.git"
+  },
+  "author": "pdt",
+  "license": "ISC"
+}

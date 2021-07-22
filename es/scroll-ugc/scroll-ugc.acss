@@ -1,0 +1,61 @@
+.scroll-ugc {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 37rpx;
+  /* height: 62rpx; */
+  box-sizing: border-box;
+  padding: 20rpx 30rpx;
+}
+
+.scroll-ugc-box {
+  line-height: 1;
+}
+
+.scroll-ugc-box .left {
+  /* width: 133rpx; */
+}
+
+.scroll-ugc-box .left text {
+  font-size: 22rpx;
+  font-family: ZhenyanGB, ZhenyanGB-Regular;
+  font-weight: 600;
+  text-align: left;
+  color: #1f4faf;
+  line-height: 28rpx;
+  border-right: 1rpx solid #e3e3e3;
+  padding-right: 20rpx;
+}
+
+.scroll-ugc-box .left .icon2 {
+  width: 24rpx;
+  margin: 0 16rpx 0 10rpx;
+}
+
+.scroll-ugc-box .left .icon1 {
+  width: 48rpx;
+}
+
+.scroll-ugc-box .left .toutiao {
+  padding-right: 10rpx;
+  border-right: 1rpx solid #e3e3e3;
+}
+
+.scroll-ugc-box .right {
+  /* width: 120rpx; */
+  flex: 1;
+}
+
+.scroll-ugc-box .right text {
+  color: #353535;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  /* white-space: nowrap; */
+}
+
+.scroll-ugc-box .right text:nth-child(2) {
+  color: #e31927;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-left: 10rpx;
+}

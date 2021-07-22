@@ -1,0 +1,23 @@
+<view class="scroll-ugc">
+  <view class="scroll-ugc-box flexRow">
+    <view class="left flexRow">
+      <view class="toutiao">
+        <image mode="widthFix" class="icon1" src="https://alipay-data.oss-cn-hangzhou.aliyuncs.com/xcx/common/imgs/ucg-toutiao.png"/>
+      </view>
+      <image mode="widthFix" class="icon2" src="https://alipay-data.oss-cn-hangzhou.aliyuncs.com/xcx/common/imgs/ucg-ring.png"/>
+    </view>
+    <view class="right">
+      <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" current="{{currentSwiper}}" duration="{{duration}}" circular="{{circular}}" interval="{{interval}}" vertical="{{vertical}}" disable-touch="{{disableTouch}}" acceleration="{{acceleration}}" previous-margin="{{previousMargin}}" next-margin="{{nextMargin}}" 
+  disable-programmatic-animation ="{{disAnimation}}" onChange="onSwipeChange" style="height: {{34}}rpx">
+        <block a:for="{{data}}">
+          <swiper-item a:key="{{item.id}}" style="height: {{34}}rpx">
+            <view style="height: 34rpx;line-height:0;">
+              <text>{{item.desc}}</text>
+              <text>{{item.desc2}}</text>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+  <view class="pdt-life-follow" style="background-image: url("{{bgImg}}");
+    width: {{width}}rpx;
+  height: {{height}}rpx;">
+    <life-follow sceneId="{{sceneId}}" a:if="{{showFollow}}" checkFollow="{{checkFollow}}" onCheckFollow="checkFollowCb" onClose="closeCb" class="life-follow" />
+  </view>
